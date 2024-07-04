@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { ICommonItem } from '~/components/reference/Reference.types'
-import { Json } from '~/types'
+import type { Json } from '~/features/helpers.types'
 import { menuState } from '../../../hooks/useMenuState'
 
 export function getPathWithoutHash(relativePath: string) {
